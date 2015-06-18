@@ -125,27 +125,37 @@ specification, including implementation on a constrained device (e.g. mobile pho
 <h3 id="rec-track">Recommendation-Track Deliverables</h3>
 
 <p>The working group will deliver the following specifications:</p>
-<ul>
-  <li>Calendar API, an API to access a calendar service (e.g. to add an entry, to edit
-          an entry, to delete an entry)</li>
-  <li>Tasks API, an API to access a personal task management / organizer service
-          (e.g. to add, edit, delete a task) </li>
-  <li id="contacts">Contacts API, an API to access a contacts or address book service (e.g. to add an
-          entry, to edit an entry, to delete an entry) </li>
-  <li id="camera">Media Capture and Stream API: an API to manage a device’s camera and microphone, e.g. to take a picture or record a sound, in collaboration with the WebRTC Working Group
-  </li>
-  <li id="messaging">Messaging API, an API to create and send a message. The API is agnostic to
+<dl>
+  <dt>Calendar API</dt>
+  <dd>an API to access a calendar service (e.g. to add an entry, to edit
+          an entry, to delete an entry)</dd>
+  <dt>Tasks API</dt>
+  <dd>an API to access a personal task management / organizer service
+          (e.g. to add, edit, delete a task) </dd>
+  <dt id="contacts">Contacts API</dt>
+  <dd>an API to access a contacts or address book service (e.g. to add an
+          entry, to edit an entry, to delete an entry) </dd>
+  <dt id="camera">Media Capture and Stream API</dt>
+  <dd>an API to manage a device’s camera and microphone, e.g. to take a picture or record a sound, in collaboration with the WebRTC Working Group</dd>
+  <dt id="messaging">Messaging API</dt>
+  <dd>an API to create and send a message. The API is agnostic to
           the underlying messaging service (e.g. e-mail, SMS, MMS).
-  </li>
-  <li id="network">An API to discover the current network characteristics</li>
-  <li id="battery">An API to react to a device power status</li>
-  <li id="sysinfo">An  API to retrieve data generically from sensors</li>
-  <li id="applauncher">An API that allows web applications to register themselves as handlers/providers based on data string identifiers and an API that
-enables other web applications to discover these handlers/providers and gain permission to interact with them.</li>
-  <li id="gallery">Gallery API, an API to manage the local media file
-  storage</li>
-  <li id="discovery">An API to discover and communicate with devices and services on the same device, on the local network, or directly connected, e.g. by USB and Bluetooth.</li>
-</ul>
+  </dd>
+  <dt id="network">Network Information API</dt>
+  <dd>An API to discover the current network characteristics</dd>
+  <dt id="battery">Battery Status API</dt>
+  <dd>An API to react to a device power status</li>
+  <dt id="sysinfo">Generic Sensor API Pattern</dt>
+  <dd>A pattern for APIs that retrieve data from sensors</dd>
+  <dt id="applauncher">App Launcher API</dt>
+  <dd>An API that allows web applications to register themselves as handlers/providers based on data string identifiers and an API that
+enables other web applications to discover these handlers/providers and gain permission to interact with them.</dd>
+  <dt id="gallery">Gallery API</dt>
+  <dd>an API to manage the local media file
+  storage</dd>
+  <dt id="discovery">Network Service Discovery API</dt>
+  <dd>An API to discover and communicate with devices and services on the same device, on the local network, or directly connected, e.g. by USB and Bluetooth.</dd>
+</dl>
 
 <p>Where practical, the API specifications should use the <a
 href="http://www.w3.org/TR/WebIDL/">Web IDL</a> formalism.</p>
