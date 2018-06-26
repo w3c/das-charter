@@ -2,7 +2,7 @@
 ## Summary
 * [Revised Charter](https://rawgit.com/w3c/dap-charter/changes-from-ac-review-2018/DeviceAPICharter.html)
 * [Charter as Reviewed by AC](https://rawgit.com/w3c/dap-charter/7f3cb64fdfce27a376b6c6b6beff173f6afd0bfa/DeviceAPICharter.html)
-* [Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Frawgit.com%2Fw3c%2Fdap-charter%2F7f3cb64fdfce27a376b6c6b6beff173f6afd0bfa%2FDeviceAPICharter.html&doc2=https%3A%2F%2Frawgit.com%2Fw3c%2Fdap-charter%2Fchanges-from-ac-review-2018%2FDeviceAPICharter.html)
+* [Diff](https://services.w3.org/htmldiff?doc1=https%3A%2F%2Fcdn.rawgit.com%2Fw3c%2Fdap-charter%2F7f3cb64fdfce27a376b6c6b6beff173f6afd0bfa%2FDeviceAPICharter.html&doc2=https%3A%2F%2Fcdn.rawgit.com%2Fw3c%2Fdap-charter%2F7d6e16467feba5d05b370e5622c6a2f5a9fbc391%2FDeviceAPICharter.html)
 * [Review results](https://www.w3.org/2002/09/wbs/33280/DAS-2018/results)
 ## Responses
 * 21 supported the Charter as is
