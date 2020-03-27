@@ -126,52 +126,64 @@
           </tr>
         </tbody>
       </table>
-      <div id="goals">
-        <h2>
-          Goals
-        </h2>
-        <p>
-          The Devices and Sensors Working Group produces Web client-side APIs
-          that allow Web applications to access advanced capabilities of their
-          host devices.
-        </p>
-        <p>
-          These capabilities include access to cameras, microphones, and system
-          information such as network connection and battery level.
-        </p>
-        <p>
-          Adding these advanced features to the Web environment empowers Web
-          developers to create richer and more context-aware Web applications.
-        </p>
-        <p>
-          These APIs grant access to sensitive data, some of which is not
-          intuitively obvious as being sensitive, and some of which can be used
-          to track users. Because of that, these APIs must be both secure and
-          privacy-enabling by design, based on the current Web browser security
-          model. When existing browser-based privacy and security metaphors
-          apply, the WG will endeavour to reuse them. When those metaphors do
-          not apply, the WG will explore innovative security and privacy
-          mechanisms.
-        </p>
-      </div>
       <div class="scope">
         <h2 id="scope">
           Scope
         </h2>
         <p>
-          The scope of this Working Group is the creation of API specifications
-          for a device’s services that can be exposed to Web applications.
-          Services include sensors, media capture, network information and
-          discovery. Devices in this context include desktop computers, laptop
-          computers, mobile Internet devices (MIDs), cellular phones, TVs,
-          cameras and other connected devices.
+          The Devices and Sensors WG defines client-side APIs that allow web
+          applications to make use of widely available device capabilities that
+          enable modern, context-aware, and interactive application
+          experiences. There capabilities include:
+        </p>
+        <ul>
+          <li>reacting to device power status
+          </li>
+          <li>preventing the screen or system from turning off
+          </li>
+          <li>monitoring the presence of nearby objects without physical
+          contact
+          </li>
+          <li>monitoring the ambient light level of the device’s environment
+          </li>
+          <li>monitoring changes in motion and orientation of the hosting
+          device
+          </li>
+          <li>obtaining and monitoring the location of the hosting device
+          </li>
+        </ul>
+        <p>
+          To fulfill its mission and to encourage broader engagement from
+          implementers and web developers alike, this WG is committed to
+          <strong>security and privacy focused</strong> and <strong>use
+          case-driven</strong> specification development.
         </p>
         <p>
-          Hardware security services are out of scope for this group.
+          As per the commitment to <strong>secure and
+          privacy-preserving</strong> specifications, APIs in scope that expose
+          sensitive data define normative mitigations to address any known
+          security and privacy threats. These mitigations are developed and
+          reviewed together with the security and privacy community and
+          incorporated normatively into the respectively specifications. In
+          addition, the WG produces non-normative security and privacy
+          explainers that describe concrete best practices, design patterns,
+          and mitigation strategies that cater to web developers to raise
+          awareness.
         </p>
         <p>
-          Priority will be given to developing simple and consensual APIs,
-          leaving more complex features to future versions.
+          The group will document <strong>use cases and requirements</strong>
+          that inform the scope of the technical work to ensure the APIs limit
+          their functionality and data exposure to the minimum required to
+          implement real-world use cases adhering to the principles of data
+          minimization. Applicability of mitigation strategies such as data
+          quantization and permissions grants will be assessed on a use case
+          basis considering the requirements derived from real-world use cases.
+        </p>
+        <p>
+          The WG will reuse existing security and privacy-focused web features
+          and APIs developed in other groups where applicable. If the existing
+          solutions do not provide the level of protection required, the WG
+          will explore innovative new security and privacy mechanisms.
         </p>
       </div>
       <div class="success-criteria">
